@@ -21,10 +21,13 @@
        <label class="logo"><img src="image/logo.jpg">Desmark</label>
 
        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">MotorLoans</a></li>
-          <li><a href="">Customers</a></li>
-          <li><a href="">Dues</a></li>
+          <li><a href="">Dashboard</a></li>
+          <li><a href="">Customers Management</a></li>
+          <li><a href="">Dues Management</a></li>
+          <li><a href="">Sms Notification</a></li>
+          <li><a href="">Reports</a></li>
+          <li><a href="">Settings</a></li>
+          <li><a href="">Help & Support</a></li>
           <li><a href="" class="btn btn-success">LogIn</a></li>
 
 
