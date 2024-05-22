@@ -21,16 +21,17 @@ nav
     line-height: 70px;
 }
 img{
-    height: 50px;
+    height: 40px;
     width: 50px;
-    position: relative;
+    position: center;
     right: 5%;
+    
 }
 ul
 {
     position: relative;
     float: right;
-    margin-right: 20px;
+    left: 80px;
 }
 
 ul li
@@ -41,7 +42,42 @@ ul li
 }
 ul li a
 {
-    text-decoration: none;
-    color: rgb(222, 222, 235);
+    text-decoration: rgb(46, 17, 207);
+    color: rgb(232, 232, 240);
     font-size: 15px;
 }
+.container-fluid
+{
+    background-color: rgb(155, 27, 48);
+    
+}
+
+.navbar-header .brand-name
+{
+    color: blue;
+    line-height: 70px;
+    font-size: 30px;
+    font-weight: bold;
+}
+/* style.css */
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+    margin: 10px 0;
+    padding: 8px;
+    width: 100%;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
