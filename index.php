@@ -5,11 +5,11 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Dues Reminder</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <script src='main.js'></script>
 </head>
 <body>
-    <na>
+    <nav>
        <label>HONDA Desmark</label>
 
        <ul>
@@ -21,6 +21,6 @@
 
        </ul>
 
-    </na>
+    </nav>
 </body>
 </html>
