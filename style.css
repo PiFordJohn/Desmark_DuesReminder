@@ -11,7 +11,6 @@ nav
    height: 70px;
    width: 100%;
 }
-
 .logo
 {
     font-size: 30px;
@@ -21,7 +20,12 @@ nav
     font-weight: bold;
     line-height: 70px;
 }
-
+img{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    right: 5%;
+}
 ul
 {
     position: relative;

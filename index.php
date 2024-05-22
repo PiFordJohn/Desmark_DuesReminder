@@ -18,7 +18,7 @@
 </head>
 <body>
     <nav>
-       <label class="logo">HONDA Desmark</label>
+       <label class="logo"><img src="image/logo.jpg">Desmark</label>
 
        <ul>
           <li><a href="">Home</a></li>
