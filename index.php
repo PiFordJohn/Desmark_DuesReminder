@@ -10,7 +10,7 @@
 </head>
 <body>
     <nav>
-       <label>HONDA Desmark</label>
+       <label class="logo">HONDA Desmark</label>
 
        <ul>
           <li><a href="">Home</a></li>

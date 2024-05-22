@@ -12,3 +12,12 @@ nav
    width: 100%;
 }
 
+.logo
+{
+    font-size: 30px;
+    position: relative;
+    left: 5%;
+    color: blue;
+    font-weight: bold;
+    line-height: 70px;
+}
