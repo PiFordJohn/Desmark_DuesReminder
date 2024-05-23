@@ -1,0 +1,162 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+nav
+{
+   position: fixed;
+   background-color: rgb(255, 0, 0);
+   height: 70px;
+   width: 100%;
+}
+.logo
+{
+    font-size: 30px;
+    position: relative;
+    left: 5%;
+    color: blue;
+    font-weight: bold;
+    line-height: 70px;
+}
+img{
+    height: 40px;
+    width: 50px;
+    position: center;
+    right: 5%;
+    
+}
+ul
+{
+    position: relative;
+    float: right;
+    left: 90px;
+}
+
+ul li
+{
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 5px;
+}
+ul li a
+{
+    text-decoration: rgb(46, 17, 207);
+    color: rgb(232, 232, 240);
+    font-size: 15px;
+}
+.container-fluid
+{
+    background-color: rgb(155, 27, 48);
+    
+}
+
+.navbar-header .brand-name
+{
+    color: blue;
+    line-height: 70px;
+    font-size: 30px;
+    font-weight: bold;
+}
+/* style.css */
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+    margin: 10px 0;
+    padding: 8px;
+    width: 100%;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* dashboard.css */
+
+/* Styling the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+}
+
+/* Ensuring the navbar is fixed at the top */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Add padding-top to body to avoid content being hidden behind navbar */
+body {
+    padding-top: 60px; /* Adjust based on the height of your navbar */
+}
+
+/* Centering the main content */
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px); /* Full height minus navbar height */
+    padding: 20px;
+}
+
+/* Styling the container */
+.container {
+    text-align: center; /* Center text inside the div */
+    padding: 20px; /* Padding inside the container */
+    border: 1px solid #ccc; /* Border around the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for visual effect */
+    background-color: #fff; /* White background for the container */
+    border-radius: 8px; /* Rounded corners */
+    max-width: 400px; /* Max width of the container */
+    width: 100%; /* Full width for smaller screens */
+}
+
+/* Styling the admin container */
+.admin-container {
+    background-color: #007bff; /* Blue background for admin */
+    color: white; /* White text color for better contrast */
+}
+
+/* Styling the heading */
+.container h2, .admin-container h2 {
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+/* Styling the paragraph */
+.container p, .admin-container p {
+    margin-bottom: 20px; /* Space below the paragraph */
+}
+
+/* Styling the buttons */
+.container a.btn, .admin-container a.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.container a.btn-primary, .admin-container a.btn-primary {
+    background-color: #007bff; /* Bootstrap primary color */
+}
+
+.container a.btn-primary:hover, .admin-container a.btn-primary:hover 
+{
+    background-color: #0056b3; /* Darker shade*/
+}
