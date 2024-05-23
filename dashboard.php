@@ -18,22 +18,18 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body>
+    <?php
+    session_start();
+    if (!isset($_SESSION['username'])) {
+        header("Location: login.php");
+        exit();
+    }
+    $username = $_SESSION['username'];
+    ?>
     <?php include 'navbar.php'; ?>
     <div class="container">
-        <h1>Dashboard</h1>
-        <p>Welcome to the Dashboard.</p>
-    </div>
-    <?php
-session_start();
-if(!isset($_SESSION['username'])) {
-    header("Location: login.php");
-    exit();
-}
-$username = $_SESSION['username'];
-?>
-<div class="container">
-    <h2>Welcome, <?php echo $username; ?>!</h2>
-    <a href="logout.php">Logout</a>
+        <h2>Welcome, <?php echo htmlspecialchars($username); ?>!</h2>
+        <a href="logout.php" class="btn btn-primary">Logout</a>
     </div>
 </body>
 </html>
