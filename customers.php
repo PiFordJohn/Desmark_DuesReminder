@@ -34,8 +34,8 @@ $result = mysqli_query($conn, $sql);
     <h3>Add New Customer</h3>
     <form method="post" action="add_customer.php">
         <div class="form-group">
-                    <label for="customer_id_update">Customer ID:</label>
-                    <input type="text" class="form-control" id="customer_id_update" name="customer_id">
+            <label for="customer_id_update">Customer ID:</label>
+            <input type="text" class="form-control" id="customer_id_update" name="customer_id">
         </div>
         <div class="form-group">
             <label for="name">Name:</label>
@@ -108,6 +108,7 @@ $result = mysqli_query($conn, $sql);
                         <th>Address</th>
                         <th>Contact Number</th>
                         <th>Due Date</th>
+                        <th>View Dues</th> <!-- Add this column -->
                     </tr>
                 </thead>
                 <tbody>
@@ -120,10 +121,13 @@ $result = mysqli_query($conn, $sql);
                             echo "<td>" . htmlspecialchars($row['address']) . "</td>";
                             echo "<td>" . htmlspecialchars($row['contact_number']) . "</td>";
                             echo "<td>" . htmlspecialchars($row['due_date']) . "</td>";
+                            echo "<td><a href=\"dues.php?customer_id=" . $row['customer_id'] . "\">View Dues</a></td>"; // View Dues link
                             echo "</tr>";
+                            
+                            
                         }
                     } else {
-                        echo "<tr><td colspan='5'>No records found</td></tr>";
+                        echo "<tr><td colspan='6'>No records found</td></tr>";
                     }
                     ?>
                 </tbody>
